@@ -1,14 +1,14 @@
-# NQuen
+# NQueen
 for interview test
 
 
-#test
-./gradle test
+##test
+gradle test
 
-#run
+##run
 ./gradlew run
 
-#build
+##build
 ./gradlew jar
 
 

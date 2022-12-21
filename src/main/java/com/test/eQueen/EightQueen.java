@@ -18,6 +18,9 @@ public class EightQueen {
         this.sizeH = sizeH;
     }
 
+    public boolean checkthreaten(){
 
+        return false;
+    }
 
 }
