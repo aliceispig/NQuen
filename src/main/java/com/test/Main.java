@@ -8,19 +8,11 @@ public class Main {
 
     public static void main(String[] args){
 
-        EightQueen a= new EightQueen(8,8);
+        EightQueen a= new EightQueen(20,20);
 
-        a.run(0);
+        a.solve(0);
 
-        ArrayList<int[]>  result =a.getResult();
+        System.out.println(a.solveNum);
 
-        for (int i=0; i<result.size();i++){
-            System.out.println("");
-            for (int j=0; j<result.get(i).length; j++){
-
-                System.out.print(result.get(i)[j]+" ");
-            }
-
-        }
     }
 }
