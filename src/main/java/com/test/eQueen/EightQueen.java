@@ -1,32 +1,35 @@
 package com.test.eQueen;
 
+import java.util.ArrayList;
+
 public class EightQueen {
 
-    private int n = 0;
-    //board width
-    private int sizeW=0;
-    //board height
-    private int sizeH=0;
+    private int queenNum = 0;
+    //chess size
+    private int chessSize=0;
 
-    /**
-     * init Game
-     * @param n Queen number
-     * @param sizeW
-     * @param sizeH
-     */
-    public void EightQueen(int n , int sizeW  ,int sizeH){
-        this.n = n;
-        this.sizeW = sizeW;
-        this.sizeH = sizeH;
+    public  EightQueen(int queenNum , int chessSize ){
+        this.queenNum = queenNum;
+        this.chessSize = chessSize;
+
     }
 
-    /**
-     * if the queen is threatened others return false
-     * @return isThreaten
-     */
-    public boolean checkthreaten( ){
+    public void run(){
+        int[][] chess = new int[chessSize][chessSize];
+    }
+
+    public boolean solve(int[][] chess , int column ){
+        if(column > chessSize){
+            return true;
+        }
 
         return false;
+    }
+
+
+    public boolean check( int[][] chess,int x , int y  ){
+
+
     }
 
 }
