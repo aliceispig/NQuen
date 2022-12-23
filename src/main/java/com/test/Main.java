@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        EightQueen a= new EightQueen(20,20);
+        EightQueen a= new EightQueen(1,1);
 
         a.solve(0);
 
